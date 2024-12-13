@@ -4,14 +4,14 @@
 seeds = true
 skip-lint = false
 
-[programs.localnet]
+[programs.devnet]
 anchor_movie_review_program = "62hFzjxKcWwR3i1F76czzxsQP5UHSGE5HbKNhcSwbPSu"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "Localnet"
+cluster = "https://api.devnet.solana.com"
 wallet = "/home/flynn/.config/solana/id.json"
 
 [scripts]
